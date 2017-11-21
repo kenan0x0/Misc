@@ -1,0 +1,33 @@
+body{
+	font-family:Zilla Slab,sans-serif;
+	line-height: 25px
+}
+.left{
+	display: flex;
+	flex-direction: column;
+	background-color:#eee ;
+	width:200px;
+	height:980px;
+	align-items: center;
+	margin-left:50px;
+}
+.right{
+	position:absolute;
+	top:50px;
+	left:290px;
+	background-color:#eee;
+	width:1500px;
+}
+.headersright{
+	padding-left:10px;
+}
+footer{
+	text-align: center;
+	background-color:#eee;
+	width:1500px;
+	position: absolute;
+	left:290px;
+}
+p{
+	padding-left:10px;
+}
