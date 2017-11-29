@@ -1,6 +1,7 @@
-mkdir
-cd
-touch
-cat
-echo
-pwd
+To make a new directory : mkdir
+To navigate between directories : cd
+To make a new file : touch
+shows the content of a file : cat
+To add text to a file or to overwrite a text in a previously made file : echo
+Shows the current directory : pwd
+To copy a file or a content of a file to another : cp
