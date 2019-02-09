@@ -29,8 +29,8 @@ footer {
 #description{
     margin-top:2%;
     text-align: center;
-    font-style: italic;
     text-decoration: underline;
+    font-style: italic;
 }
 
 .footerItem{
@@ -48,3 +48,26 @@ footer {
   display: inline;
   padding: 0.5%;
 }
+
+#downloadLink{
+    text-decoration: none;
+}
+
+#downloadLink:hover{
+    text-shadow: 2px 3px 5px black;
+}
+
+ /* unvisited link */
+#downloadLink:link {
+  color: red;
+}
+
+/* visited link */
+#downloadLink:visited {
+  color: green;
+}
+
+/* selected link */
+#downloadLink:active {
+  color: blue;
+} 
