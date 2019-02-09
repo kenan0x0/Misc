@@ -33,6 +33,18 @@ footer {
     text-decoration: underline;
 }
 
-tr{
+.footerItem{
     color: black;
+}
+
+#navBar{
+  width: 100%;
+  background-color: #efefef;
+  list-style: none;
+  padding: 1%;
+}
+
+.navItem{
+  display: inline;
+  padding: 0.5%;
 }
