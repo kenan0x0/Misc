@@ -1,0 +1,31 @@
+body{
+    font-family: Zilla Slab;
+}
+#links{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+a{
+    width: 49.4%;
+    color:white;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left:5px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+footer {
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
