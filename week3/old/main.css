@@ -1,1 +1,191 @@
+body{
+	font-family: 'Zilla Slab', serif;
+}
+#logo{
+	width:150px;
+	position:relative;
+	left:50%;
+}
+nav{
+	background-color:#01689b;
+	height:4em;
+}
+nav a{
+	color:white;
+	text-decoration:none;
+	font-size:1.25em;
+}
+nav a:hover{
+	text-decoration:underline;
+}
+.navbar{
+	text-align:right;
+	padding-top:1%;
+	padding-right:15%;
+	padding-left:15%;
+}
+.main1{
+	padding-right:15%;
+	padding-left:15%;
+	background-color:#f3f3f3;
+}
+.main1 a{
+	text-decoration:none;
+	color:#01689b;
+}
+.main1 a:hover{
+	text-decoration:underline;
+}
+#ul1{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	width:100%;
+	list-style-type:none;
+}
+.itemul1{
+	width:25%;
+}
 
+.main2{
+	padding-left:15%;
+	padding-right:15%;
+}
+.main2 a{
+	text-decoration:none;
+	color:#767676;
+}
+.main2 a:hover{
+	text-decoration:underline;
+	color:#01689b;
+}
+#ul2{
+	list-style-type:none;
+	width:100%;
+}
+.itemul2{
+	width:33.333%;
+	float:left;
+	
+}
+.images{
+	width:90%
+}
+hr{
+	clear:both;
+	margin-right:15%;
+	margin-left:15%;
+}
+h1{
+	margin-left:15%;
+}
+.main3{
+	padding-left:15%;
+	padding-right:15%;
+}
+.main3 a{
+	text-decoration:none;
+	color:#01689b;
+}
+.main3 a:hover{
+	text-decoration:underline;
+}
+.itemul3{
+	width:33.333%;
+	float:left;
+	box-sizing:border-box;
+	padding:1%;
+}
+#ul3{
+	list-style-type:none;
+	width:100%;
+}
+.meer{
+	clear:both;
+}
+.meer a{
+	text-decoration:none;
+	color:#01689b;
+}
+.service{
+	margin-left:15%;
+	margin-right:15%;
+	width:75%;
+}
+#ul4{
+	list-style-type:none;
+}
+.itemul4{
+	float:left;
+	width:37.5%;
+	text-align:center;
+	border:1px solid;
+	margin-left:1%;
+	margin-bottom:1%;
+	height:100%;
+}
+footer{
+	clear:both;
+	background-color:#01689b;
+	list-style-type:none;
+	font-size:1.25em;
+		display:flex;
+	justify-content: flex-end;
+	height:13em;
+}
+.both{
+	text-align:center;
+	margin-right:15%;
+	color:white;
+}
+.both a{
+	color:white;
+	text-decoration:none;
+}
+.both a:hover{
+	text-decoration:underline;
+}
+#h1footer{
+	position:absolute;
+	left:10px;
+	font-size:150%
+}
+#languages{
+	text-align:center;
+}
+@media screen and (max-width: 993px){
+	.itemul1{
+		width:50%;
+	}
+	.itemul2{
+		width:50%;
+	}
+	.itemul3{
+		width:50%;
+	}
+}
+@media screen and (max-width: 767px){
+	.itemul1{
+		width:100%;
+	}
+}
+@media screen and (max-width: 479px){
+	.itemul2{
+		width:100%;
+	}
+	.itemul3{
+		width:100%;
+	}
+	.itemul4{
+		width:100%;
+	}
+}
+time{
+	font-weight:bold;
+}
+.color1{
+	color:#1b5e84;
+}
+.color2{
+	color:#a90061;
+}
