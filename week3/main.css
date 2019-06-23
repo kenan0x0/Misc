@@ -52,7 +52,10 @@ html{
 .project{
     list-style: none;
     width: 100%;
+    text-align: center;
 }
 .project li{
     display: inline;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
