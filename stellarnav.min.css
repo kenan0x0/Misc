@@ -5,7 +5,7 @@
  * Released under the MIT license
  */
 /* all nav */
-.stellarnav { position: relative; width: 100%; z-index: 9900; line-height: normal; border-radius: 5px; }
+.stellarnav { position: relative; width: 100%; z-index: 1; line-height: normal; border-radius: 5px; }
 .stellarnav a { color: #777; }
 .stellarnav ul { margin: 0; padding: 0; text-align: center; }
 .stellarnav li { list-style: none; display: block; margin: 0; padding: 0; position: relative; line-height: normal; vertical-align: middle; }
@@ -16,7 +16,7 @@
 .stellarnav > ul > li > a { padding: 20px 40px; }
 
 /* first level dd */
-.stellarnav ul ul { top: auto; width: 220px; position: absolute; z-index: 9900; text-align: left; display: none; background: #ddd; }
+.stellarnav ul ul { top: auto; width: 220px; position: absolute; z-index: 1; text-align: left; display: none; background: #ddd; }
 .stellarnav li li { display: block; }
 
 /* second level dd */
