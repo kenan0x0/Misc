@@ -5,7 +5,7 @@
  * Released under the MIT license
  */
 /* all nav */
-.stellarnav { position: relative; width: 100%; z-index: 9900; line-height: normal; }
+.stellarnav { position: relative; width: 100%; z-index: 9900; line-height: normal; border-radius: 5px; }
 .stellarnav a { color: #777; }
 .stellarnav ul { margin: 0; padding: 0; text-align: center; }
 .stellarnav li { list-style: none; display: block; margin: 0; padding: 0; position: relative; line-height: normal; vertical-align: middle; }
@@ -34,9 +34,9 @@
 .stellarnav.light li a { color: #000; }
 
 /* dark theme */
-.stellarnav.dark { background: rgba(0, 0, 0, 1); }
+.stellarnav.dark { background: #253665; }
 .stellarnav.dark a { color: #FFF; }
-.stellarnav.dark ul ul { background: rgba(0, 0, 0, 1); }
+.stellarnav.dark ul ul { background: #253665; }
 .stellarnav.dark li a { color: #FFF; }
 /* sticky nav */
 .stellarnav.fixed { position: fixed; width: 100%; top: 0; left: 0; z-index: 9999; }
