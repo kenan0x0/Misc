@@ -13,7 +13,7 @@
 
 /* main level */
 .stellarnav > ul > li { display: inline-block;  }
-.stellarnav > ul > li > a { padding: 20px 40px; }
+.stellarnav > ul > li > a { padding: 20px 20px; }
 
 /* first level dd */
 .stellarnav ul ul { top: auto; width: 220px; position: absolute; z-index: 1; text-align: left; display: none; background: #ddd; }
